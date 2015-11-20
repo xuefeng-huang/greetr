@@ -6,24 +6,27 @@
     }
     
     // hidden within the scope of the IIFE and never directly accessible
-    var supportedLangs = ['en', 'es'];
+    var supportedLangs = ['en', 'es', 'cn'];
     
     // informal greetings
     var greetings = {
         en: 'Hello',
-        es: 'Hola'
+        es: 'Hola',
+        cn: '你好'
     };
     
     // formal greetings
     var formalGreetings = {
         en: 'Greetings',
-        es: 'Saludos'
+        es: 'Saludos',
+        cn: '久仰'
     };
     
     // logger messages
     var logMessages = {
         en: 'Logged in',
-        es: 'Inició sesión'
+        es: 'Inició sesión',
+        cn: '成功登录'
     };
     
     // prototype holds methods (to save memory space)
